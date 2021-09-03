@@ -1,0 +1,17 @@
+This task is the deliverable of the following task as a front end member.
+Backend Intern:
+Technology : Laravel Php
+-Implement a similar api route to this: (ignore user_id)
+https://jsonplaceholder.typicode.com/posts
+-Fake 100 post using factories-seeders .
+-pagination is a plus
+-show one post is a plus
+-add new post is a plus
+-using api resources is a plus
+
+Frontend Intern:
+Technology : React
+Feel free to use class components or functional components .
+-Consume this api using axios package to view a list of posts in react app (ignore user_id)
+
+https://jsonplaceholder.typicode.com/posts
