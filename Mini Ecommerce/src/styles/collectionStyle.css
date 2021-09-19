@@ -1,0 +1,60 @@
+.grid-container {
+  display: grid;
+  grid-template:'myArea myArea .';
+}
+.item1 {
+  grid-area: myArea;
+}
+.grid-container {
+  display: grid;
+  grid-template:
+  'myArea myArea . . .'
+  'myArea myArea .';
+  
+  grid-gap: 10px;
+  background-color: #fafdffb4;
+  padding: 10px;
+}
+
+
+.grid-container > div.item1 {
+  background-color: rgb(170, 97, 148);
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+}
+.grid-container > div.item2 {
+  background-color: rgb(173, 155, 137);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+}
+.grid-container > div.item3 {
+  background-color: rgb(173, 155, 137);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+}
+.grid-container > div.item4 {
+  background-color: rgb(173, 155, 137);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+}
+.grid-container > div.item5 {
+  background-color: rgb(94, 149, 185);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+}
